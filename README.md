@@ -5,24 +5,9 @@ This code is for the dropdown menu on the About the Cast Page. Because there is 
 
 In order to add new links, this is what you should do: 
 
-find this section of the code:
+find the section of the code which starts with "button class" 
 
-'''
-
-<button class="dropbtn">Select Year</button>
-<div class="dropdown-content"><a href="https://www.nchsdrumshow.com/2022cast">2022</a>
-<a href="https://www.nchsdrumshow.com/2020cast">2020</a>
-<a href="https://www.nchsdrumshow.com/2019cast">2019</a>
-<a href="https://www.nchsdrumshow.com/2018cast">2018</a>
-<a href="https://www.nchsdrumshow.com/2017cast">2017</a>
-</div>
-</div>
-
-'''
-
-Before the </div> directly after the last link, you can add in a new link like so: 
-
-<a href="LINK HERE">YEAR</a>
+Before the </div> directly after the last link, you can add in a new link by using the tag <a href = > and putting the link in quotes after the = sign. Then you close the tag with < / a > 
 
 That will add a new link to the dropdown menu. 
 
