@@ -7,7 +7,7 @@ In order to add new links, this is what you should do:
 
 find this section of the code:
 
-<!--
+'''
 
 <button class="dropbtn">Select Year</button>
 <div class="dropdown-content"><a href="https://www.nchsdrumshow.com/2022cast">2022</a>
@@ -18,7 +18,7 @@ find this section of the code:
 </div>
 </div>
 
---!>
+'''
 
 Before the </div> directly after the last link, you can add in a new link like so: 
 
